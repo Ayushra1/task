@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.head {
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(51, 47, 49, 0.15);
+    height: auto !important;
+    background-color: #fff;
+}
+* {
+    box-sizing: border-box;
+}
+.head .logo img, .head[_ngcontent-serverApp-c8] .logo[_ngcontent-serverApp-c8] img[_ngcontent-serverApp-c8] {
+    max-height: 100px!important;
+}
+img {
+    max-width: 100%;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.price-btn {
+    width: 100%;
+    max-width: 350px;
+    /* padding-top: 10px; */
+    /* padding-right: 0px; */
+    /* padding-bottom: 10px; */
+    /* padding-left: 0px; */
+    background-color: rgb(172, 150, 143);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.btn {
+    display: inline-block;
+    /* font-weight: 400; */
+    /* color: #212529; */
+    text-align: center;
+    vertical-align: middle;
+    /* -webkit-user-select: none; */
+    user-select: none;
+    /* background-color: initial; */
+    /* border: 1px solid #0000; */
+    /* padding: 0.375rem 0.75rem; */
+    /* font-size: 1rem; */
+    line-height: 1.5;
+    /* border-radius: 0.25rem; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.head .price-btn {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.head .right-side .price-btn {
+    margin-right: 2rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+button {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+.head .right-side p.businessName {
+    font-size: 18px;
+    font-weight: 700;
+}
+.head .right-side p {
+    margin-bottom: 7px;
+}
+.head p, .head a {
+    display: flex;
+    column-gap: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(51, 47, 49);
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+}
+.tile1 .top-section {
+    position: relative;
+    padding-top: 40px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    background-color: #f9e9d6;
+}
+
+* {
+    box-sizing: border-box;
+}
+.tile1 .form-wrapper {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    min-width: 400px;
+    max-width: 410px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    z-index: 999;
+}
+* {
+    box-sizing: border-box;
+}
+.tile1 h1 {
+    font-size: 50px;
+}
+
+.tile1 h1 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    color: rgb(51, 47, 49);
+    padding-right: 420px;
+    display: inline-block;
+}
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+.tile2::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -50%;
+    right: 0px;
+    width: 200%;
+    height: 100%;
+    z-index: -9;
+    background-color: rgb(51, 47, 49);
+    background-size: contain;
+    background-position-x: 5%;
+    background-position-y: 0%;
+}
+.tile4 {
+    padding-top: 60px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+}
+.tile4 h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 62px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+.tile-35 {
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(234, 234, 225);
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 2em;
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+.reviews {
+    box-shadow: rgb(161, 161, 161) 0px 4px 4px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    text-align: left;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+}
+.tile8 {
+    height: 450px;
+    background-image: url(https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/Path%20261.png), url(https://g99plus.b-cdn.net/Landingpages/aesthetic%20beauty%20lounge/lip_filler/AdobeStock_556469654.jpeg);
+    background-size: cover;
+    background-position-x: 60%;
+    background-position-y: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+.tile8 h2 {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.price-btn {
+    width: 100%;
+    max-width: 350px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    background-color: rgb(172, 150, 143);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    cursor: pointer;
+}
+.lower-footer {
+    background-color: rgb(51, 47, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 50px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(90, 82, 86);
+}
+.lower-footer p {
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+div.right-side
+{
+	display:flex;
+
+}
+div.right-side .price-btn
+{
+	height:fit-content;
+	align-self:center;
+}
+
+div.width-wrapper
+{
+	background-color:#332F31;
+	font-family:"Playfair Display", serif;
+	
+}
+
+div.width-wrapper h2
+{
+	color:#AC968F;
+}
+
+div.width-wrapper p
+{
+	color:#fff;
+
+}
+
+
